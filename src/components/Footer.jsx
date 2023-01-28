@@ -5,7 +5,7 @@ const Footer = () => {
     let today = new Date();
   return (
     <Box>
-        © {today.getFullYear()} Realtor, Inc.
+        © {today.getFullYear()} Real State Herrera, Inc.
     </Box>
   )
 }

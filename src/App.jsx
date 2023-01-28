@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import DetailProperty from "./DetailProperty";
 import Home from "./Home";
 
 function App() {
@@ -9,10 +10,13 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}>
-          {/* <Route path="detail" element={<About />} />
-          <Route path="dashboard" element={<Dashboard />} /> */}
         </Route>
       </Routes>
+      <Routes>
+      <Route path="property">
+        <Route path=":externalID" element={<DetailProperty />} />
+      </Route>
+    </Routes>
       <Footer/>
     </>
   );

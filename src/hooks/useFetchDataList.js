@@ -17,7 +17,7 @@ const useFetch = (category) => {
           categoryExternalID: "4",
         },
         headers: {
-          "X-RapidAPI-Key": "aab88fdbe8msh0bc7e3aafe92204p12be54jsnacc025383ac1",
+          "X-RapidAPI-Key":  process.env.RAPID_API_KEY,
           "X-RapidAPI-Host": "bayut.p.rapidapi.com",
         },
       };

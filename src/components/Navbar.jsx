@@ -19,7 +19,9 @@ const Navbar = () => {
   return (
     <Flex p="2" borderBottom="1px" borderColor="gray.100">
       <Box fontSize="3x1" color="blue.400" fontWeight="bold">
-        <Link to="/"> Realtor</Link>
+        <Link to="/"> 
+        <Box fontSize="xx-large">Real State Herrera</Box>
+        </Link>
       </Box>
       <Spacer />
       <Box>
